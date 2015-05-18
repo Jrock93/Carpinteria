@@ -22,13 +22,13 @@ function Slider() {
 					
 					
 					if(index+1<cont){
-						$($('.imagenes').find('.i_elemento').get(index+1)).slideDown();
+						$($('.imagenes').find('.i_elemento').get(index+1)).slideDown(3000);
 						$($('.imagenes').find('.i_elemento').get(index+1)).addClass('i_visible');	
 						return false;
 					}	
 				
 				else{
-					$($('.imagenes').find('.i_elemento').get(0)).slideDown();
+					$($('.imagenes').find('.i_elemento').get(0)).slideDown(3000);
 					$($('.imagenes').find('.i_elemento').get(0)).addClass('i_visible');
 					return false;
 				}
